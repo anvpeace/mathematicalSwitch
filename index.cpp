@@ -2,25 +2,6 @@
 
 using namespace std;
 
-// Exercise 6.
-
-// Copy the functions and their declarations created in the exercises from 1 to 5 and write sixth
-// function "chooseOperation". The "chooseOperation" function should take one char parameter. The
-// body of the function should contain a switch for the choice parameter which depending on the
-// user input should invoke the corresponding mathematical functions from the exercises 1 to 5.
-
-// Write a simple calculator program that asks the user to choose a mathematical operation to perform
-// by inputting an operator symbol: '+' - addition, '-' - subtraction, '*' - multiplication,
-// '/' - division, '^' - exponentiation. The mathematical symbol is used as the parameter for
-// chooseOperation function. The calculator should work in an infinite loop.
-
-// eg.
-
-// User inputted:
-// +
-
-// Output:
-// The result of addition function
 
 void addition();
 
