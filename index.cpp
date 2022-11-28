@@ -3,17 +3,17 @@
 using namespace std;
 
 
-void addition();
+int addition();
 
-void subtraction();
+int subtraction();
 
-void multiply();
+int multiply();
 
-void divide();
+float divide();
 
 // void exponential();
 
-void chooseOperator(char operations);
+char chooseOperator(char operations);
 
 float operandOne;
 
@@ -49,7 +49,7 @@ int main (){
     return 0;
 }
 
-void chooseOperator(char operations){
+char chooseOperator(char operations){
 
  switch (operation)
     {
@@ -85,23 +85,23 @@ void chooseOperator(char operations){
 }
 
 
-void addition(){
+int addition(){
     int sum = operandOne + operandTwo;
         cout << "The sum of " <<operandOne << operation << operandTwo << sum << endl;
 }
 
-void subtraction (){
+int subtraction (){
     int difference = operandOne - operandTwo;
         cout << "The difference of the subtraction function " << difference << endl;
 }
 
-void multiply(){
+int multiply(){
     int product = operandOne * operandTwo;
         cout << "The product of the multiplication function " << product << endl;
 
 }
 
-void divide(){
+float divide(){
     int quotient = operandOne / operandTwo;
         cout << "The quotient of " << operandOne << operation << quotient << endl;
     
